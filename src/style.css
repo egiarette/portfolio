@@ -1,1 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;0,9..40,700;1,9..40,200;1,9..40,400;1,9..40,700&family=DM+Serif+Display:ital@0;1&display=swap");
+
+:root {
+  --branding-color: #592c88;
+  --secondary-color: #e5e5e5;
+  --heading-font: "DM Serif Display", Georgia, Times;
+  --default-font: "DM Sans", Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--default-font) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+h1 {
+  font-size: 96px !important;
+}
+
+.btn-branding {
+  background: var(--branding-color) !important;
+  color: white !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 15px 30px !important;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.hero h3 {
+  font-family: var(--default-font);
+  font-size: 36px;
+}
