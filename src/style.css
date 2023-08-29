@@ -111,6 +111,11 @@ hr {
   font-size: 36px;
 }
 
+.hero-internal {
+  background-color: var(--light-color);
+  padding: 160px 120px 80px 120px;
+}
+
 .featured-content {
   margin: 50px 25px;
 }
