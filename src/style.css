@@ -113,7 +113,7 @@ hr {
 
 .hero-internal {
   background-color: var(--light-color);
-  padding: 160px 120px 80px 120px;
+  padding: 160px 120px 80px 320px;
 }
 
 .featured-content {
