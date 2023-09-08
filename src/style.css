@@ -270,8 +270,17 @@ a {
   width: 50px;
 }
 
-.nav-active {
+nav a {
+  text-decoration: none;
   color: var(--dark-color);
+}
+
+a img:hover {
+  text-decoration: none;
+}
+
+nav a:hover,
+nav li.active a {
   border-bottom: 3px solid var(--accent-color-pink);
 }
 
