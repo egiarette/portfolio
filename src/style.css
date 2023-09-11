@@ -287,3 +287,21 @@ nav li.active a {
 .navbar-bg {
   background-color: white;
 }
+
+footer {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 25px 75px 5px 75px;
+}
+
+footer a {
+  color: var(--accent-color-pink);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social {
+  max-width: 5%;
+}
