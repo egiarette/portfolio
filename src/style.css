@@ -11,9 +11,13 @@
   --default-font: "DM Sans", Helvetica, sans-serif;
 }
 
-a {
+.main-link {
   color: var(--branding-color);
   text-decoration: none;
+}
+
+.main-link:hover {
+  text-decoration: underline;
 }
 
 body {
@@ -145,10 +149,6 @@ hr {
   .row-content {
     text-align: center;
   }
-}
-
-a {
-  color: var(--branding-color);
 }
 
 .accordion-item {
@@ -291,6 +291,7 @@ nav li.active a {
 footer {
   background-color: var(--dark-color);
   color: white;
+  margin-top: 25px;
   padding: 25px 75px 5px 75px;
 }
 

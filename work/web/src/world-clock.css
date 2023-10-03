@@ -46,3 +46,8 @@ body {
   border-top: 2px solid var(--branding-color);
   z-index: -1;
 }
+
+.repository {
+  text-align: center;
+  padding: 10px 0px;
+}
