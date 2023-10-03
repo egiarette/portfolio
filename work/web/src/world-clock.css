@@ -1,0 +1,48 @@
+:root {
+  --branding-color: #154042;
+  --light-color: #d4d6d5;
+  --dark-color: #11201e;
+  --accent-color-mint: #d2e9dd;
+  --accent-color-pink: #decec8;
+
+  --heading-font: "DM Serif Display", Georgia, Times;
+  --default-font: "DM Sans", Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--light-color);
+}
+
+.col-card {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(18, 33, 31, 0.2);
+  padding: 25px;
+  margin: 25px 0px;
+  border-radius: 10px;
+}
+
+.project-header {
+  padding: 150px 0px 0px;
+}
+
+.project-header h2 {
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+}
+
+.project-header h2 span {
+  background-color: var(--light-color);
+  padding: 10px;
+}
+
+.project-header h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 2px solid var(--branding-color);
+  z-index: -1;
+}
