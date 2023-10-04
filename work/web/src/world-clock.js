@@ -54,6 +54,9 @@ function updateCity(event) {
                 "h:mm:ss [<small>]A[</small>]"
               )}</div>
             </div>
+            <a class="main-link" href="../web/world-clock.html">
+                Original Cities
+            </a>
   `;
 }
 
