@@ -66,6 +66,7 @@ select {
   margin: 0 0 5px;
   font-size: 28px;
   color: var(--branding-color);
+  text-align: left;
 }
 .city {
   display: flex;
@@ -85,11 +86,11 @@ select {
 
 .time {
   font-size: 48px;
-  font-weight: bold;
+  color: var(--branding-color);
 }
 
 .time small {
   font-size: 24px;
-  vertical-align: middle;
+  font-weight: bold;
   line-height: 48px;
 }
