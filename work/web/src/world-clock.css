@@ -94,3 +94,9 @@ select {
   font-weight: bold;
   line-height: 48px;
 }
+
+@media (max-width: 768px) {
+  .project-header h2 {
+    font-size: 48px;
+  }
+}
